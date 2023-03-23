@@ -17,7 +17,7 @@
     <section id="blog" class="text-center px-lg-5">
         <div class="container">
 
-            <div class="row pb-4" data-aos="fade-up">
+            <div class="row pt-5 pb-4" data-aos="fade-up">
                 <div class="col-lg-12">
                     <h1>Blogs</h1>
                     <h6 class="text-brand">My Recent Post</h6>
