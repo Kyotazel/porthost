@@ -30,7 +30,7 @@
                     </div>
                     <div class="form-group mb-3">
                         <label for="content">Content : </label>
-                        <input type="hidden" name="content" value="{!!isset($data->content) ? $data->content : ''!!}">
+                        <input type="hidden" name="content" value='{!!isset($data->content) ? $data->content : ''!!}'>
                         <div id="content" style="min-height: 400px">
                             {!!isset($data->content) ? $data->content : ''!!}
                         </div>
