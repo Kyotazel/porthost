@@ -72,10 +72,10 @@
                     </div>
                     <div class="col-auto">
                         <div class="social-icons">
-                            <a href="#"><i class="lab la-linkedin"></i></a>
-                            <a href="#"><i class="lab la-github"></i></a>
-                            <a href="#"><i class="lab la-instagram"></i></a>
-                            <a href="#"><i class="lab la-whatsapp"></i></a>
+                            <a href="https://www.linkedin.com/in/okta-ari-aditya"><i class="lab la-linkedin"></i></a>
+                            <a href="https://github.com/Kyotazel"><i class="lab la-github"></i></a>
+                            <a href="https://www.instagram.com/oktavl._/"><i class="lab la-instagram"></i></a>
+                            <a href="https://wa.me/6285546017449"><i class="lab la-whatsapp"></i></a>
                         </div>
                     </div>
                 </div>
