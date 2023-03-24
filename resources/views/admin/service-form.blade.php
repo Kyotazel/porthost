@@ -30,7 +30,7 @@
                     </div>
                     <div class="form-group mb-3">
                         <label for="content">Content : </label>
-                        <input type="hidden" name="content" value='{!!isset($data->content) ? $data->content : ''!!}'>
+                        <input type="hidden" name="content" id="content_hidden" class="d-none">
                         <div id="content" style="min-height: 400px">
                             {!!isset($data->content) ? $data->content : ''!!}
                         </div>
@@ -87,6 +87,8 @@
                 })
             };
         });
+
+        $("#content_hidden").val(editor.root.innerHTML);
 
         editor.on('text-change', function(delta, oldDelta, source) {
             document.querySelector("input[name='content']").value = editor.root.innerHTML;
