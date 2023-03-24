@@ -26,7 +26,7 @@
                     <div class="form-group mb-3">
                         <label for="image" class="form-label">Thumbnail : </label><br>
                         @if (isset($data))
-                            <img style='height: 120px;' src='{{asset("storage/blog/$data->image")}}' /><br><br>
+                            <img style='height: 120px;' src='{{asset("storage/public/blog/$data->image")}}' /><br><br>
                         @endif
                         <input type="file" name="image" class="form-control" value="{{isset($data->image) ? $data->image : ''}}">
                         <div class="invalid-feedback"></div>
