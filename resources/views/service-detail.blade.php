@@ -8,6 +8,8 @@
     @livewireScripts
 @endpush
 
+@section('description', $service->short_content)
+
 @section('content')
     <section id="service" class="text-center px-lg-5" style="min-height: 100vh">
         <div class="container">

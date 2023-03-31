@@ -13,6 +13,8 @@
     @livewireScripts
 @endpush
 
+@section('description', 'Portfolio Okta Ari Aditya')
+
 @section('content')
     <section id="work" class="text-center px-lg-5">
         <div class="container">

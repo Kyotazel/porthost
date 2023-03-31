@@ -15,6 +15,8 @@
     @livewireScripts
 @endpush
 
+@section('description', $blog->short_content)
+
 @section('content')
     <section id="blog" class="text-center px-lg-5" style="min-height: 100vh">
         <div class="container">

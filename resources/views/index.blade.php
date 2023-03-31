@@ -9,6 +9,8 @@
     </style>
 @endpush
 
+@section('description', 'web developer with expertise in Fullstack development using various programming languages including HTML, CSS, JavaScript, PHP, and MySQL. I am highly skilled in problem-solving. I am equally comfortable working independently or as part of a team.')
+
 @push('script')
     @livewireScripts
 @endpush

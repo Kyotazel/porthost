@@ -3,6 +3,7 @@
 @push('style')
     @livewireStyles
     <style>
+
         @media screen and (max-width: 600px) {
             img {
                 width: 80%;
@@ -14,6 +15,8 @@
 @push('script')
     @livewireScripts
 @endpush
+
+@section('description', $portfolio->short_content)
 
 @section('content')
     <section id="portfolio" class="text-center px-lg-5" style="min-height: 100vh">
